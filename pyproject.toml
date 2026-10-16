@@ -24,7 +24,7 @@ dev = ["pytest>=8"]
 
 [project.urls]
 Homepage = "https://api.zreports.org/lab/zbench"
-Repository = "https://github.com/shawnzreports/zbench"
+Repository = "https://github.com/zReports-Health/zbench"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]

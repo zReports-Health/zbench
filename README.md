@@ -15,7 +15,7 @@ Results so far (exact answers, layers 1 to 6, browsing â†’ record): GPT-5 25% â†
 ## Install
 
 ```
-git clone https://github.com/shawnzreports/zbench
+git clone https://github.com/zReports-Health/zbench
 cd zbench
 uv sync            # or: pip install -e .
 ```
