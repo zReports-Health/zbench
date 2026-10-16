@@ -1,0 +1,12 @@
+{"id": "IVF-V1-L1-013", "neighbours": [{"c": 0, "y": 2022, "b": "35-37", "v": "44.8", "m": "transfers \u2192 live births", "t": "own", "rel": "measure"}, {"c": 0, "y": 2022, "b": "35-37", "v": "46.5", "m": "new patients: new patients had live births after 1 intended retrieval", "t": "own", "rel": "measure"}]}
+{"id": "IVF-V1-L1-015", "neighbours": [{"c": 0, "y": 2022, "b": "<35", "v": "57.5", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": "35-37", "v": "43.2", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}]}
+{"id": "IVF-V1-L1-016", "neighbours": [{"c": 0, "y": 2022, "b": "35-37", "v": "33.7", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": "38-40", "v": "26.7", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": ">40", "v": "7.4", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": "<35", "v": "63.5", "m": "new patients: new patients had live births after 1 or 2 intended retrievals", "t": "own", "rel": "measure"}]}
+{"id": "IVF-V1-L1-017", "neighbours": [{"c": 0, "y": 2022, "b": "<35", "v": "35.9", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": "35-37", "v": "28.8", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}, {"c": 0, "y": 2022, "b": "38-40", "v": "14.8", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "band"}]}
+{"id": "IVF-V1-L2-010", "neighbours": []}
+{"id": "IVF-V1-L2-022", "neighbours": [{"c": 0, "y": 2020, "b": "35-37", "v": "37", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "national"}, {"c": 0, "y": 2022, "b": ">40", "v": "0", "m": "intended retrievals \u2192 multiple live births", "t": "own", "rel": "year+measure+band"}]}
+{"id": "IVF-V1-L2-032", "neighbours": [{"c": 0, "y": 2022, "b": "35-37", "v": "30", "m": "intended retrievals \u2192 live births", "t": "own", "rel": "year"}]}
+{"id": "IVF-V1-L2-034", "neighbours": []}
+{"id": "IVF-V1-L2-043", "neighbours": []}
+{"id": "IVF-V1-L2-056", "neighbours": []}
+{"id": "IVF-V1-L2-064", "neighbours": [{"c": 0, "y": 2020, "b": "<35", "v": "8", "m": "intended retrievals \u2192 multiple live births", "t": "own", "rel": "year+measure+band"}]}
+{"id": "IVF-V1-L2-065", "neighbours": []}

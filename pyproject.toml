@@ -1,0 +1,40 @@
+[project]
+name = "zbench"
+version = "0.1.0"
+description = "zBench: record-grounded healthcare facility benchmarks with a deterministic grader (zReports HealthCare Data Lab). Inspect AI task and HELM scenario for zBench IVF."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Shawn Redd", email = "shawn@zreports.org" }]
+keywords = ["benchmark", "evaluation", "healthcare", "llm", "inspect-ai", "cdc"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "inspect_ai>=0.3.100",
+  "regex>=2024.4.16",
+  "huggingface_hub>=0.23",
+]
+
+[project.optional-dependencies]
+helm = ["crfm-helm>=0.5.0"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://api.zreports.org/lab/zbench"
+Repository = "https://github.com/shawnzreports/zbench"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+zbench = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
